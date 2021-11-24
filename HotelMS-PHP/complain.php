@@ -142,11 +142,11 @@
                             <form data-toggle="validator" role="form" method="post" action="ajax.php">
                                 <div class="form-group">
                                     <label>Số tiền giải quyết</label>
-                                    <input class="form-control" placeholder="Budget" name="budget" data-error="Enter Budget" required>
+                                    <input class="form-control" placeholder="Budget" name="budget" data-error="Nhập số tiền" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <input type="hidden" id="complaint_id" name="complaint_id" value="">
-                                <button class="btn btn-success pull-right" name="resolve_complaint">Giải quyết phàn nàn</button>
+                                <button class="btn btn-success pull-right" name="resolve_complaint">Giải quyết phàn hồi</button>
                             </form>
                         </div>
                     </div>
